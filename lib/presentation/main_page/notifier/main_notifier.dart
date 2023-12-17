@@ -1,5 +1,6 @@
 import 'package:equatable/equatable.dart';
 import 'package:flutter/material.dart';
+import 'package:riverpod_annotation/riverpod_annotation.dart';
 import '/core/app_export.dart';
 import '../models/welcomebackafreen_item_model.dart';
 import '../models/meditation101_item_model.dart';

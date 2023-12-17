@@ -10,15 +10,15 @@ final Map<String, String> enUs = {
   "msg_don_t_have_an_account3": "Don’t have an account?  Sign Up",
   "msg_forgot_password": "Forgot Password?",
   "msg_sign_in_now_to_acces":
-      "Sign in now to acces your excercises and saved music.",
+      "Sign in now to acces your excercises and saved learning.",
 
   // Sign Up Screen
   "lbl_name": "Name",
   "lbl_signup2": "SIGNUP",
-  "msg_already_have_an": "Already have an account?  Sign In",
+  "msg_sign_in": "Sign In",
   "msg_already_have_an2": "Already have an account?",
   "msg_sign_up_now_for":
-      "Sign up now for free and start meditating, and explore Medic.",
+      "Sign up now for free and start learning, and explore Knowledge.",
 
   // Main Screen
   "lbl_anxious": "Anxious",
