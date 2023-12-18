@@ -1,4 +1,3 @@
-import 'package:app3/presentation/app_navigation_screen/app_navigation_screen.dart';
 import 'package:app3/presentation/main_page/main_page.dart';
 import 'package:app3/presentation/sign_up_screen/sign_up_screen.dart';
 import 'package:app3/presentation/splash_screen/splash_screen.dart';
@@ -56,10 +55,7 @@ class MyApp extends StatelessWidget {
               return AppRoutes.fadeThrough(settings, (context) {
                 switch (settings.name) {
                   case AppRoutes.mainPage:
-                    return MainPage(
-                        //menuScreenContext: context,
-                        );
-
+                    return MainPage();
                   case AppRoutes.signUpScreen:
                     return SignUpScreen();
                   case AppRoutes.loginScreen:

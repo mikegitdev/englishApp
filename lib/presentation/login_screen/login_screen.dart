@@ -105,7 +105,7 @@ class LoginScreen extends StatelessWidget {
                           CustomElevatedButton(
                             onPressed: () {
                               Navigator.of(context)
-                                  .pushReplacementNamed(AppRoutes.mainPage);
+                                  .pushReplacementNamed(AppRoutes.homeScreen);
                             },
                             text: "lbl_login".tr,
                             buttonTextStyle: AppTextStyle.mediumNormal.copyWith(

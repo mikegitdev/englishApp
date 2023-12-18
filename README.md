@@ -65,7 +65,5 @@ Resolve the errors and warnings that are shown in the application.
   https://pub.dev/packages/cached_network_image
 
 
-flutter pub get 
 
-flutter pub run build_runner build --delete-conflicting-outputs
-dart run 
+flutter pub run build_runner watch -d

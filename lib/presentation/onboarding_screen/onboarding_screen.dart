@@ -72,6 +72,10 @@ class OnboardingScreenState extends ConsumerState<OnboardingScreen> {
                       ),
                       Spacer(),
                       CustomElevatedButton(
+                        onPressed: () {
+                          Navigator.of(context)
+                              .pushReplacementNamed(AppRoutes.homeScreen);
+                        },
                         text: "msg_login_with_email".tr,
                         buttonTextStyle: AppTextStyle.mediumNormal
                             .copyWith(fontSize: 25.sp, color: Colors.white),

@@ -1,4 +1,5 @@
 import 'package:animations/animations.dart';
+import 'package:app3/home_page.dart';
 import 'package:flutter/material.dart';
 import 'package:app3/presentation/splash_screen/splash_screen.dart';
 import 'package:app3/presentation/onboarding_screen/onboarding_screen.dart';
@@ -6,10 +7,11 @@ import 'package:app3/presentation/login_screen/login_screen.dart';
 import 'package:app3/presentation/sign_up_screen/sign_up_screen.dart';
 import 'package:app3/presentation/sound_tab_container_screen/sound_tab_container_screen.dart';
 import 'package:app3/presentation/profile_tab_container_screen/profile_tab_container_screen.dart';
-import 'package:app3/presentation/app_navigation_screen/app_navigation_screen.dart';
 
 class AppRoutes {
   static const String splashScreen = '/splash_screen';
+
+  static const String homeScreen = '/home_screen';
 
   static const String onboardingScreen = '/onboarding_screen';
 
@@ -43,7 +45,9 @@ class AppRoutes {
     signUpScreen: (context) => SignUpScreen(),
     soundTabContainerScreen: (context) => SoundTabContainerScreen(),
     profileTabContainerScreen: (context) => ProfileTabContainerScreen(),
-    appNavigationScreen: (context) => AppNavigationScreen()
+    homeScreen: (context) => HomePage(
+          menuScreenContext: context,
+        )
   };
 
   static Route<T> fadeThrough<T>(RouteSettings settings, WidgetBuilder page,
